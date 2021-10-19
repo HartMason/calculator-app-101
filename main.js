@@ -5,7 +5,7 @@ let secondNum = null
 let operation = null
 
 // this function takes in the number you type in the input field and saves it to the "firstNum" variable
-const saveFirstNumber = (num) => {
+const saveFirstNumber = (num) => {1
   firstNum = parseInt(num)  
 }
 
