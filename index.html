@@ -7,7 +7,7 @@
   <script src="main.js"></script>
   <title>Document</title>
 </head>
-<body>
+<body class="container">
   <form class="calculator">
     <div>
     <label for="first-number">First Number:</label>
@@ -29,10 +29,13 @@
       <button type="button" name="modulus" id="modulus" onclick="changeOperation(this.id)">Modulus</button>
     </div>
     <br>
+    <div class="equalsClear">
     <!-- this "onclick" calls the "equal" function in the main.js file -->
     <button type="button" onclick="equals()">Equals</button>
     <button type="reset">Clear</button>
-  </form>
+    </div>
+  
   <div id="result"></div>
+  </form>
 </body>
 </html>

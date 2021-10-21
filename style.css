@@ -1,11 +1,10 @@
-body {
+.container {
   margin: 20% auto;
   width: 50%;
   height: 75%;
   border-color: black; 
   display: grid;
-  grid-template-rows: 50% 25% 25%;
-  grid-area: auto;
+  grid-template-areas: 1fr 1fr 1fr 1fr;
 }
 
 
@@ -18,3 +17,6 @@ button {
  background-color: aqua;
 }
 
+div#result {
+  
+}
