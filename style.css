@@ -2,4 +2,19 @@ body {
   margin: 20% auto;
   width: 50%;
   height: 75%;
+  border-color: black; 
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
+  grid-area: auto;
 }
+
+
+
+.buttonz {
+  display: flex;
+}
+
+button { 
+ background-color: aqua;
+}
+
